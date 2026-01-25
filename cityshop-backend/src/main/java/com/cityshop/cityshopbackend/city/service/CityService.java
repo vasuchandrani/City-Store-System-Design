@@ -5,7 +5,8 @@ import com.cityshop.cityshopbackend.city.CityRepository;
 import com.cityshop.cityshopbackend.dto.req.city.CityAddDto;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
+
+import java.util.List;
 
 @Service
 public class CityService {
@@ -35,5 +36,9 @@ public class CityService {
             System.out.println("Something went wrong "+ ex.getMessage());
             return false;
         }
+    }
+
+    public List<City> getAllCities() {
+        return cityRepository.findAll();
     }
 }

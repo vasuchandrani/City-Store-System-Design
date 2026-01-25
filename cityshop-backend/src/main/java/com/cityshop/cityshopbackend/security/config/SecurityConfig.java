@@ -36,6 +36,11 @@ public class SecurityConfig {
                         .requestMatchers("/cityshop/admin/login").permitAll()
                         .requestMatchers("/cityshop/admin/**").hasRole("ADMIN")
                         .requestMatchers("/cityshop/deliverer/**").hasRole("DELIVERER")
+                        .requestMatchers("/cityshop/customer/**").hasRole("CUSTOMER")
+                        .requestMatchers("/cityshop/cart/**").hasRole("CUSTOMER")
+                        .requestMatchers("/cityshop/order/place").hasRole("CUSTOMER")
+                        .requestMatchers("/cityshop/shops/**").hasRole("CUSTOMER")
+                        .requestMatchers("/cityshop/my-shop/**").hasRole("SHOPKEEPER")
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(
