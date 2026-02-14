@@ -1,67 +1,52 @@
 ## Core Features
 
-### Shopkeeper Features
+### Store Discovery
 
-#### Shop Management
-
-- Create shop profile
-- Update shop information
-- Manage storefront
-
-#### Product Management
-
-- Add products
-- Update products
-- Delete products
-
-#### Inventory Management
-
-- Track stock
-- Update availability
-- Prevent overselling
-
-#### Marketing
-
-- Create advertisements
-- Upload promotional content
-
-#### Order Management
-
-- Receive orders
-- Process orders
-- Prepare orders for delivery
+- Browse stores
+- Search stores
+- Filter by category
+- Filter by location
 
 ---
 
-### Customer Features
+## Product Catalog
 
-#### Discovery
-
-- Browse shops
-- Search products
-
-#### Ordering
-
-- Multi-shop checkout
-- Online payments
-
-#### Tracking
-
-- Real-time order tracking
-
-#### Communication
-
-- Contact shopkeepers
+- Product listings
+- Product search
+- Product comparison
 
 ---
 
-### Delivery Partner Features
+## Service Listings
 
-#### Delivery Requests
+- Service catalogs
+- Service information
+- Service pricing
 
-- Accept deliveries
-- Reject deliveries
+---
 
-#### Delivery Management
+## Appointment Booking
 
-- Track assigned deliveries
+- Book appointments
+- Manage appointments
+
+---
+
+## Communication
+
+- Contact stores owners
+- Send inquiries
+
+---
+
+## Promotions
+
+- Stories
+- Offers
+- Advertisements
+
+---
+
+## Optional Ordering
+
+stores may enable online ordering and self-managed delivery.

@@ -1,116 +1,102 @@
-# 🏙️ CityShop
+# 🏙️ CityStore
 
-### Bridging Local Shops with Modern Commerce
+ > Your City. Every Store. One App.
 
-CityShop is a city-focused commerce platform designed to combine the trust of local neighborhood shops with the convenience of modern e-commerce and quick commerce.
+CityStore is a city-wide stores discovery platform that helps customers discover, compare, and connect with local stores.
 
-The objective is simple:
-
-> Help customers purchase products easily while enabling local shopkeepers to remain profitable, competitive, and digitally connected.
-
-Unlike traditional marketplaces that often replace local businesses, CityShop empowers shopkeepers by providing a digital storefront, inventory management tools, customer acquisition channels, and delivery support while allowing them to retain ownership of their business.
+Instead of visiting multiple stores, calling stores individually, or searching through outdated information, customers can explore products, services, pricing, availability, and stores details from a single platform.
 
 ---
 
-# 🎯 Vision
+## 🎯 Vision
 
-To create a city-wide commerce ecosystem where local businesses can compete digitally without losing their identity, independence, or customer relationships.
-
----
-
-# 📌 Problem Statement
-
-Local businesses are steadily losing visibility because of:
-
-- Rapid growth of e-commerce platforms
-- Rise of quick commerce services
-- Lack of affordable digital solutions
-- Limited customer reach
-
-At the same time, customers expect:
-
-- Easy online ordering
-- Fast delivery
-- Product availability information
-- Seamless purchasing experiences
-
-CityShop aims to bridge this gap.
+To create a digital directory for every local stores, making local commerce transparent, discoverable, and accessible.
 
 ---
 
-# 💡 Solution
+## 📌 Problem Statement
 
-CityShop combines:
+Customers often struggle to:
 
-- Trust of local shops
-- Convenience of online ordering
-- Quick-commerce style delivery
+- Compare prices between local stores
+- Verify product availability
+- Discover services offered by stores
+- Find trustworthy local stores
+- Access up-to-date information
+
+Local stores often struggle to:
+
+- Gain online visibility
+- Showcase products and services
+- Reach new customers
+- Maintain a professional online presence
+
+---
+
+## 💡 Solution
+
+CityStore gives every local stores its own digital storefront inside the platform.
 
 Customers can:
 
-- Discover local shops
-- Browse products
-- Order from multiple shops
-- Track deliveries
+- Discover stores
+- Browse catalogs
+- Compare prices
+- View products and services
+- Contact stores
+- Book appointments
+- Place orders (when enabled)
 
-Shopkeepers can:
+stores owners can:
 
-- Create digital storefronts
-- Manage products
-- Manage inventory
-- Receive online orders
-- Promote their business
-
-Delivery partners complete the final mile delivery process.
+- Manage storefronts
+- Showcase products
+- Showcase services
+- Publish offers
+- Promote their stores
 
 ---
 
-# 👥 User Roles
+## 👥 User Roles
 
 ### Customer
 
-Browse products, place orders, and track deliveries.
+Discover, compare, contact, book, and optionally order.
 
-### Shopkeeper
+### Store Owner
 
-Manage shops, products, inventory, and orders.
+Manage stores profile, catalog, offers, appointments, and orders.
 
-### Delivery Partner
+### Admin
 
-Accept delivery requests and deliver products.
-
----
-
-# 🚀 Key Features
-
-### Shopkeeper
-
-- Shop Management
-- Product Management
-- Inventory Management
-- Advertisements
-- Order Fulfillment
-
-### Customer
-
-- Shop Discovery
-- Product Search
-- Multi-Shop Checkout
-- Order Tracking
-
-### Delivery Partner
-
-- Real-Time Delivery Requests
-- Earnings Tracking
-- Delivery Management
+Verify storeses and maintain platform quality.
 
 ---
 
-# 🌱 Expected Impact
+## 🚀 Core Features
 
-CityShop aims to:
+- stores Discovery
+- Product Catalogs
+- Service Listings
+- Product Comparison
+- Appointment Booking
+- stores Reviews
+- stores Stories
+- stores Promotions
+- Optional Online Ordering
 
-- Strengthen local businesses
-- Preserve neighborhood economies
-- Increase customer convenience
-- Create earning opportunities for delivery partners
+---
+
+## Impact
+
+CityStore helps customers make better decisions while helping local stores become digitally discoverable.
+
+---
+
+## 🚧 Current Status
+
+- Project is under development.
+
+---
+
+**“Code. Create. Empower.”**

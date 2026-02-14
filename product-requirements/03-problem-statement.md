@@ -1,19 +1,18 @@
 ## Problem Statement
 
-Local shopkeepers are increasingly losing customers due to:
+Customers lack reliable information about local stores.
 
-- Growth of e-commerce platforms
-- Growth of quick-commerce platforms
-- Lack of digital visibility
-- Limited marketing opportunities
+They often struggle to:
 
-Customers increasingly expect:
+- Compare prices
+- Verify availability
+- Discover services
+- Find trustworthy stores
 
-- Easy ordering
-- Fast delivery
-- Product availability information
-- Convenient shopping experiences
+Business owners struggle to:
 
-This creates a growing gap between traditional local businesses and modern customer expectations.
+- Reach customers online
+- Showcase offerings
+- Maintain visibility
 
-CityShop is designed to bridge this gap.
+CityStore solves this by providing a centralized platform for local stores discovery and comparison.

@@ -1,42 +1,39 @@
-## Business Rules
+## Store Rules
 
-### Shop Registration
+### Store Verification
 
-Every shop must register itself with all details and then system admin verify those detail, after virification shop can sell products.
-
----
-
-### Subscription Requirement
-
-Shopkeepers must purchase a subscription plan to register shop on the platform.
+Every Store must be verified by system admin before becoming visible on the platform.
 
 ---
 
-### Product Ownership
+## Catalog Ownership
 
-Products belong to the particular shop not to the city-shop.
-
----
-
-### Inventory Accuracy
-
-Shopkeepers are responsible for maintaining inventory accuracy.
+Products and services belong to a specific Store.
 
 ---
 
-### Delivery Assignment
+## Ordering
 
-Delivery requests are broadcast to available delivery partners.
-The first partner to accept receives the assignment.
+Ordering is optional.
 
----
-
-### Order Fulfillment
-
-Shopkeepers are responsible for packing products before pickup.
+Stores may enable or disable ordering.
 
 ---
 
-### Multi-Shop Orders
+## Delivery
 
-Customers may place orders containing products from multiple shops.
+When enabled, delivery is handled entirely by the Store.
+
+The platform does not manage delivery partners.
+
+---
+
+## Appointments
+
+Appointments are available only for Stores that choose to offer them.
+
+---
+
+## Pricing
+
+Stores are responsible for maintaining accurate and up-to-date pricing information.

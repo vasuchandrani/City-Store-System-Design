@@ -1,28 +1,28 @@
 ## Product Overview
 
 ### Product Name
-CityShop
+
+CityStore
 
 ### Category
-Local Commerce Platform
+
+Local Stores Discovery Platform
 
 ### Tagline
 
-Bridging Local Shops with Modern Commerce
-
----
+Your City. Every Store. One App.
 
 ### Purpose
 
-CityShop is designed to help local shopkeepers compete with large e-commerce and quick-commerce platforms by providing a digital storefront, inventory management, customer acquisition, and delivery support.
+CityStore helps customers discover, compare, and connect with local businesses through a unified platform.
 
----
+The platform focuses on transparency, discoverability, and informed decision-making.
 
 ### Primary Goal
 
-Enable customers to order products from local shops with the same convenience offered by modern commerce platforms.
+Make local stores digitally discoverable.
 
-- Increase local business visibility
-- Expand customer reach
-- Digitize neighborhood shops
-- Support local commerce growth
+- Simplify stores discovery
+- Improve price transparency
+- Support local commerce
+- Enable stores visibility

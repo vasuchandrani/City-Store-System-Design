@@ -2,35 +2,29 @@
 
 ### Customer
 
-Customers use CityShop to:
-
-- Discover local shops
-- Browse products
+- Discover stores
 - Search products
-- Place orders
-- Track deliveries
-- Communicate with shopkeepers
+- Search services
+- Compare prices
+- Book appointments
+- Contact store
+- Place orders when enabled
 
 ---
 
-### Shopkeeper
+### Store Owner
 
-Shopkeepers use CityShop to:
-
-- Create shop profile
+- Manage store profile
 - Manage products
-- Manage inventory
-- Receive orders
-- Run advertisements
-- Expand customer reach
+- Manage services
+- Publish offers
+- Create stories
+- Manage appointments
+- Manage orders
 
 ---
 
-## Delivery Partner
+### Admin
 
-Delivery partners use CityShop to:
-
-- Accept delivery requests
-- Pick up orders
-- Deliver products
-- Track earnings
+- Verify stores
+- Manage subscriptions
