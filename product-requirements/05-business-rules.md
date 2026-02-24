@@ -1,39 +1,40 @@
-## Store Rules
+## Business Rules
 
-### Store Verification
+### Rule 1
 
-Every Store must be verified by system admin before becoming visible on the platform.
-
----
-
-## Catalog Ownership
-
-Products and services belong to a specific Store.
+Every business must be verified before becoming publicly visible.
 
 ---
 
-## Ordering
+### Rule 2
 
-Ordering is optional.
-
-Stores may enable or disable ordering.
-
----
-
-## Delivery
-
-When enabled, delivery is handled entirely by the Store.
-
-The platform does not manage delivery partners.
+Businesses only receive modules assigned by administrators.
+Administrators may reach out to business owners regarding module-related concerns.
 
 ---
 
-## Appointments
+### Rule 3
 
-Appointments are available only for Stores that choose to offer them.
+Module assignments determine dashboard functionality.
 
 ---
 
-## Pricing
+### Rule 4
 
-Stores are responsible for maintaining accurate and up-to-date pricing information.
+Stories and advertisements are optional shared modules.
+
+---
+
+### Rule 6
+
+Customers can only interact with features enabled for a business.
+
+Example:
+
+If appointment booking is disabled, customers cannot book appointments.
+
+---
+
+### Rule 7
+
+The platform must support future business categories without requiring architectural redesign.

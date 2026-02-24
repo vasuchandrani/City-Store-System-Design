@@ -1,18 +1,17 @@
 ## Problem Statement
 
-Customers lack reliable information about local stores.
+Traditional businesses struggle to establish an online presence.
 
-They often struggle to:
+Customers struggle to:
 
-- Compare prices
+- Compare local options
+- Find accurate pricing
 - Verify availability
-- Discover services
-- Find trustworthy stores
+- Discover trusted businesses
+- Book services
 
-Business owners struggle to:
+Existing platforms are fragmented.
 
-- Reach customers online
-- Showcase offerings
-- Maintain visibility
+Different industries use different platforms.
 
-CityStore solves this by providing a centralized platform for local stores discovery and comparison.
+The goal is to create a unified discovery platform that supports multiple business types through a common architecture.

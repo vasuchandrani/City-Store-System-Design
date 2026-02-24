@@ -2,27 +2,34 @@
 
 ### Product Name
 
-CityStore
+Finding name that reflects the broader vision
 
-### Category
+---
 
-Local Stores Discovery Platform
+### Vision
 
-### Tagline
+Create a unified platform where people can discover, compare, evaluate, and connect with any traditional business/ profession within a city.
 
-Your City. Every Store. One App.
+The platform aims to provide every business with a professional digital presence while helping customers make informed decisions before visiting or contacting a business.
 
-### Purpose
+---
 
-CityStore helps customers discover, compare, and connect with local businesses through a unified platform.
+### Core Idea
 
-The platform focuses on transparency, discoverability, and informed decision-making.
+Every registered business receives its own customizable digital space inside the platform.
 
-### Primary Goal
+Businesses may include:
 
-Make local stores digitally discoverable.
+- Stores
+- Restaurants
+- Clinics
+- Hospitals
+- Lawyers
+- Agencies
+- Salons
+- Gyms
+- Coaching Centers
 
-- Simplify stores discovery
-- Improve price transparency
-- Support local commerce
-- Enable stores visibility
+and many others.
+
+The system supports multiple business models through configurable modules.

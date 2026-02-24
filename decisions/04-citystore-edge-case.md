@@ -5,7 +5,7 @@ Under Evaluation
 
 ---
 
-# Context
+## Context
 
 After redefining the platform from CityShop to CityStore, the product direction became much stronger.
 

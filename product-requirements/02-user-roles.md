@@ -2,29 +2,36 @@
 
 ### Customer
 
-- Discover stores
-- Search products
-- Search services
-- Compare prices
+- Discover businesses
+- Compare products and services
+- View catalogs
 - Book appointments
-- Contact store
-- Place orders when enabled
+- Submit inquiries
+- Contact businesses
 
 ---
 
-### Store Owner
+### Business Owner
 
-- Manage store profile
+- Register business
+- Manage profile
+- Manage assigned modules
+- Publish stories
+- Publish advertisements
 - Manage products
 - Manage services
-- Publish offers
-- Create stories
+- Manage inventory
 - Manage appointments
-- Manage orders
+
+Capabilities depend on assigned modules.
 
 ---
 
-### Admin
+### System Administrator
 
-- Verify stores
+- Verify businesses
+- Review documents
+- Assign modules
 - Manage subscriptions
+- Moderate platform content
+- Configure business access
