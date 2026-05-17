@@ -30,6 +30,7 @@ Attributes:
 * phone_number
 * password_hash
 * last_login_at
+* is_active
 * created_at
 * updated_at
 
@@ -49,6 +50,7 @@ Attributes:
 * password_hash
 * is_super_admin
 * last_login_at
+* is_active
 * created_at
 * updated_at
 
@@ -165,6 +167,7 @@ Attributes:
 * logo_url
 * cover_image_url
 * category_id
+* created_by_user_id
 * primary_phone_number
 * primary_email
 * website_url
@@ -174,6 +177,12 @@ Attributes:
 * is_active
 * created_at
 * updated_at
+
+* account_holder_name
+* bank_name
+* account_number
+* ifsc_code
+* upi_id
 
 ---
 
@@ -224,13 +233,41 @@ Attributes:
 * contact_person_name
 * contact_phone_number
 * contact_email
-* requested_modules
-* registration_documents
 * status
+* rejection_reason
 * submitted_at
 * reviewed_at
 
 ---
+
+### BusinessRegistrationDocument
+
+* id
+* business_registration_request_id
+* document_name
+* document_type
+* file_url
+* uploaded_at
+
+
+### BusinessRegistrationRequestedModules
+
+* id
+* business_registration_request_id
+* module_id
+* requested_at
+
+### BusinessDocument
+
+* id
+* business_id
+* document_name
+* document_type
+* file_url
+* issued_date
+* expiry_date
+* uploaded_at
+* updated_at
 
 ### BusinessRole
 
@@ -275,7 +312,7 @@ Attributes:
 * start_date
 * end_date
 * status
-* payment_reference
+* payment_id
 * invoice_url
 * created_at
 
@@ -292,7 +329,8 @@ Attributes:
 * plan_id
 * start_date
 * end_date
-* payment_reference
+* status
+* payment_id
 * invoice_url
 * archived_at
 
@@ -367,6 +405,7 @@ Attributes:
 * total_amount
 * order_status
 * payment_status
+* payment_id
 * placed_at
 * updated_at
 
@@ -415,7 +454,9 @@ Attributes:
 * appointment_start_time
 * appointment_end_time
 * status
+* payment_id
 * notes
+* updated_at
 * created_at
 
 ---
@@ -476,9 +517,28 @@ Attributes:
 * subject
 * message
 * status
+* updated_at
 * created_at
 
 ---
+
+## Payment Domain
+
+### Payment
+
+* id
+* razorpay_order_id
+* razorpay_payment_id
+* razorpay_signature
+* amount
+* currency
+* payment_method
+* status
+* invoice_url
+* paid_at
+* updated_at
+* created_at
+
 
 ## Next Step
 

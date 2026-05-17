@@ -1,9 +1,10 @@
 ## Final Entity and Relationships
 
-### ER - scatch
+### ER - scratch
 
 ![Final ER Diagram](../assets/ER-scatch.jpeg)
 
+---
 
 ### Changes
 
@@ -70,6 +71,7 @@ This separation allows active subscriptions and historical subscription data to 
 ### Identity Domain
 
 * User
+* SystemAdmin
 * Role
 * UserAddress
 
@@ -90,6 +92,15 @@ This separation allows active subscriptions and historical subscription data to 
 * BusinessCategory
 * BusinessAddress
 * BusinessRegistrationRequest
+* BusinessRegistrationDocument
+* BusinessRegistrationRequestedModules
+* BusinessDocument
+* BusinessRole
+
+---
+
+### Subscription Domain
+
 * SubscriptionPlan
 * BusinessSubscription
 * BusinessSubscriptionHistory
@@ -99,6 +110,7 @@ This separation allows active subscriptions and historical subscription data to 
 ### Module Domain
 
 * Module
+* BusinessModule
 
 ---
 
@@ -107,6 +119,7 @@ This separation allows active subscriptions and historical subscription data to 
 * Product
 * Inventory
 * ProductOrder
+* OrderItem
 
 ---
 
@@ -128,6 +141,12 @@ This separation allows active subscriptions and historical subscription data to 
 ### Communication Domain
 
 * Inquiry
+
+---
+
+### Payment Domain
+
+* Payment
 
 ---
 
@@ -214,6 +233,30 @@ One-to-One
 
 ---
 
+### BusinessRegistrationRequest ↔ BusinessRegistrationDocument
+
+One-to-Many
+
+---
+
+### BusinessRegistrationRequest ↔ BusinessRegistrationRequestedModules
+
+One-to-Many
+
+---
+
+### Module ↔ BusinessRegistrationRequestedModules
+
+One-to-Many
+
+---
+
+### Business ↔ BusinessDocument
+
+One-to-Many
+
+---
+
 ### Business ↔ BusinessAddress
 
 One-to-Many
@@ -253,6 +296,18 @@ One-to-Many
 
 ---
 
+### Payment ↔ BusinessSubscription
+
+One-to-One
+
+---
+
+### Payment ↔ BusinessSubscriptionHistory
+
+One-to-One
+
+---
+
 ### Business ↔ Product
 
 One-to-Many
@@ -274,6 +329,12 @@ One-to-Many
 ### Business ↔ ProductOrder
 
 One-to-Many
+
+---
+
+### Payment ↔ ProductOrder
+
+One-to-One
 
 ---
 
@@ -307,6 +368,12 @@ One-to-Many
 ### Service ↔ Appointment
 
 One-to-Many
+
+---
+
+### Payment ↔ Appointment
+
+One-to-One
 
 ---
 
