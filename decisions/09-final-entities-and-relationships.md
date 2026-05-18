@@ -259,7 +259,7 @@ One-to-Many
 
 ### Business ↔ BusinessAddress
 
-One-to-Many
+One-to-One
 
 ---
 

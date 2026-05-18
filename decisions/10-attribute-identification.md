@@ -166,6 +166,7 @@ Attributes:
 * description
 * logo_url
 * cover_image_url
+* branch_name
 * category_id
 * created_by_user_id
 * primary_phone_number
@@ -205,7 +206,6 @@ Attributes:
 
 * id
 * business_id
-* branch_name
 * address_line_1
 * address_line_2
 * landmark
