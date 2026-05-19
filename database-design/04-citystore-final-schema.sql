@@ -1,4 +1,4 @@
--- CityStore Database Schema -version 3.0
+-- CityStore Database Schema - Version 4.0
 
 
 -- SYSTEM DOMAIN
@@ -31,8 +31,8 @@ CREATE TABLE public.system_admin (
 CREATE TABLE public.payment (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
 
-    razorpay_order_id VARCHAR(255),
-    razorpay_payment_id VARCHAR(255),
+    razorpay_order_id VARCHAR(255) UNIQUE,
+    razorpay_payment_id VARCHAR(255) UNIQUE,
     razorpay_signature TEXT,
 
     amount DECIMAL(12,2) NOT NULL,
@@ -79,8 +79,8 @@ CREATE TABLE public.module (
 );
 
 
---   LOCATION DOMAIN
-  
+-- LOCATION DOMAIN
+
 -- COUNTRY
 
 CREATE TABLE public.country (
@@ -169,7 +169,7 @@ CREATE TABLE public.user (
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
---ROLE
+-- ROLE
 
 CREATE TABLE public.role (
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -189,6 +189,9 @@ CREATE TABLE public.user_role (
     role_id BIGINT NOT NULL,
 
     assigned_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT uq_user_role
+        UNIQUE (user_id, role_id),
 
     CONSTRAINT fk_user_role_user
         FOREIGN KEY (user_id)
@@ -235,8 +238,8 @@ CREATE TABLE public.user_address (
 );
 
 
---   BUSINESS DOMAIN
-  
+-- BUSINESS DOMAIN
+
 -- BUSINESS CATEGORY
 
 CREATE TABLE public.business_category (
@@ -366,6 +369,9 @@ CREATE TABLE public.business_role (
 
     assigned_at TIMESTAMP NOT NULL,
 
+    CONSTRAINT uq_business_role
+        UNIQUE (business_id, user_id, role_name),
+
     CONSTRAINT fk_business_role_business
         FOREIGN KEY (business_id)
         REFERENCES public.business(id),
@@ -406,7 +412,7 @@ CREATE TABLE public.business_subscription (
         FOREIGN KEY (payment_id)
         REFERENCES public.payment(id)
 );
-  
+
 -- BUSINESS SUBSCRIPTION HISTORY
 
 CREATE TABLE public.business_subscription_history (
@@ -450,6 +456,9 @@ CREATE TABLE public.business_module (
     assigned_by_admin_id BIGINT NOT NULL,
 
     assigned_at TIMESTAMP NOT NULL,
+
+    CONSTRAINT uq_business_module
+        UNIQUE (business_id, module_id),
 
     CONSTRAINT fk_business_module_business
         FOREIGN KEY (business_id)
@@ -529,6 +538,12 @@ CREATE TABLE public.business_registration_requested_modules (
 
     requested_at TIMESTAMP NOT NULL,
 
+    CONSTRAINT uq_brr_module
+        UNIQUE (
+            business_registration_request_id,
+            module_id
+        ),
+
     CONSTRAINT fk_brrm_request
         FOREIGN KEY (business_registration_request_id)
         REFERENCES public.business_registration_request(id),
@@ -539,7 +554,7 @@ CREATE TABLE public.business_registration_requested_modules (
 );
 
 
---   PRODUCT COMMERCE DOMAIN
+-- PRODUCT COMMERCE DOMAIN
 
 -- PRODUCT
 
@@ -582,6 +597,9 @@ CREATE TABLE public.inventory (
 
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
+    CONSTRAINT uq_inventory_product
+        UNIQUE (product_id),
+
     CONSTRAINT fk_inventory_product
         FOREIGN KEY (product_id)
         REFERENCES public.product(id)
@@ -606,6 +624,9 @@ CREATE TABLE public.product_order (
 
     placed_at TIMESTAMP NOT NULL,
     updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT uq_product_order_number
+        UNIQUE (order_number),
 
     CONSTRAINT fk_product_order_business
         FOREIGN KEY (business_id)
@@ -710,8 +731,8 @@ CREATE TABLE public.appointment (
 );
 
 
---   MARKETING DOMAIN
-    
+-- MARKETING DOMAIN
+
 -- STORY
 
 CREATE TABLE public.story (
@@ -778,7 +799,7 @@ CREATE TABLE public.achievement (
 );
 
 
---   COMMUNICATION DOMAIN
+-- COMMUNICATION DOMAIN
 
 -- INQUIRY
 

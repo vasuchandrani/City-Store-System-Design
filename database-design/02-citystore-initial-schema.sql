@@ -1,4 +1,4 @@
--- CityStore Database
+-- CityStore Database Schema -version 2.0
 
 
 -- CITY

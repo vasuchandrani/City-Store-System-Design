@@ -1,5 +1,4 @@
--- CityShop Database
-
+-- CityShop Database Schema -version 1.0
 
 
 -- CITY
