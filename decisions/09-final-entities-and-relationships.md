@@ -1,11 +1,5 @@
 ## Final Entity and Relationships
 
-### ER - scratch
-
-![Final ER Diagram](../assets/ER-scatch.jpeg)
-
----
-
 ### Changes
 
 ### Location Hierarchy
@@ -404,6 +398,12 @@ One-to-Many
 ### Business ↔ Inquiry
 
 One-to-Many
+
+---
+
+### ER - scratch
+
+![Final ER Diagram](../assets/ER-scratch.jpeg)
 
 ---
 
